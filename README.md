@@ -1,0 +1,2 @@
+# JerryQuery
+jQuery learning notes
