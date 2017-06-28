@@ -1,12 +1,14 @@
 ~function () {
   // 构造函数
-  var jQuery = function (selector, context) {
-    return new jQuery.fn.init(selector, context)
+  var jerryQuery = function (selector, context) {
+    return new jerryQuery.fn.init(selector, context)
   };
   // 修改原型
-  jQuery.fn = jQuery.prototype = {
-    constructor: jQuery,
-    init: Init
+  jerryQuery.fn = jerryQuery.prototype = {
+    constructor: jerryQuery,
+    init: Init,
+    offset: offset,
+    css: css
   };
   
   function Init (selector, context) {
@@ -16,7 +18,7 @@
     if (typeof selector === "string") {
       //状态1:仅仅为一个*号时
       if (selector === "*") {
-        console.log("你输入的是*");
+        console.log("你输入的选择器是*");
       } else if (selector) {
       
       }
@@ -25,6 +27,17 @@
       this.length = 2;
     }
   }
+  
+  function offset () {
+    console.dir(this);
+    console.log("offset");
+  }
+  
+  function css () {
+    console.dir(this);
+    console.log("css");
+  }
+  
   // 设置全局变量
-  window.jQuery = window.$$ = jQuery;
+  window.jerryQuery = window.$$ = jerryQuery;
 }();
