@@ -14,4 +14,4 @@ jQuery learning notes
 ### 项目目录
 
 - [[初心]01 ---- 关于jQuery框架的模拟](https://github.com/szy0syz/JerryQuery/blob/master/notes/c01.md)
-- [[初心]04 ---- jQuery-CSS之jQuery.fn.offset方法实现(https://github.com/szy0syz/JerryQuery/blob/master/notes/c04.md)
+- [[初心]04 ---- jQuery-CSS之jQuery.fn.offset方法实现](https://github.com/szy0syz/JerryQuery/blob/master/notes/c04.md)
