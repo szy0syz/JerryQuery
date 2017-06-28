@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# mac os
+.DS_Store
+.DS_Store?
+
+# webstorm
+/.idea/workspace.xml
+.idea/JerryQuery.iml
+.idea/misc.xml
+.idea/modules.xml
